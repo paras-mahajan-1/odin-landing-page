@@ -1,0 +1,191 @@
+*{
+    font-family: "Roboto";
+}
+body{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navigation > .header-logo{
+    font-weight: 600;
+    font-size: 30px;
+    margin-right: auto;
+    color: #f9faf8;
+    flex-shrink: 0;
+
+}
+body > .navigation{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 200px;
+    height: 100px;
+    width: auto;
+    background-color: #1F2937;
+
+    /* border: 1px solid black */
+}
+body > .navigation > div > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #f9faf8
+}
+
+body > .container> div > h1{
+    padding:0px;
+    margin: 0px;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+body > .container> div > p{
+    color: #f9faf8;
+}
+
+body > .container{
+    height: 400px;
+    width: auto;
+    padding: 0px 200px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+body > .container> .box-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+body > .container> .box-one > button{
+    padding: 14px;
+    height: 14px;
+    width: 100px;
+    font-weight: 900;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+}
+body > .container> .box-second{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #363d46;
+    text-align: center;
+}
+
+body > .section-one{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: auto;
+    padding: 0px 260px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+body > .section-one > .headline{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+body > .section-one > .boxes{
+    display: flex;
+    gap: 40px;
+}
+body > .section-one > .boxes > .box> .inside-box{
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+body > .section-one > .boxes > .box{
+    height: 220px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+body > .section-one > .boxes > .box > p{
+    text-align: center;
+}
+
+body > .inspiration{
+    background-color: #E5E7EB;
+    padding: 80px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: auto;
+    
+}
+body > .inspiration> .name{
+    align-self: flex-end;
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin-top: -40px
+}
+body > .inspiration> .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+body > .call-to-action{
+    width: auto;
+    height: 100px;
+    margin: 100px 200px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 10px 0;
+}
+body > .call-to-action > .written-content> .heading{
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+body > .call-to-action > .written-content> .information{
+    color: #cfd2d8;
+    font-size: 14px;
+}
+
+body > .call-to-action >.button{
+    color: #f9faf8;
+    padding: 5px 20px;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+}
+
+footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 80px;
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
